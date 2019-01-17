@@ -12,22 +12,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 sed -i "67 i \ \ zsh-syntax-highlighting\n\ \ zsh-autosuggestions" ~/.zshrc
 source ~/.zshrc
 ```
-注意：保证.zshrc文件没有被修改过，否则sed命令中的67可能无效，可以尝试使用sed命令的正则表达式功能解决
 
-## 之前的参考说明
+### 注意
 
-```
-sed -i "67 i \ \ zsh-syntax-highlighting\n\ \ zsh-autosuggestions" ~/.zshrc
-```
-或者直接手动修改
-vim ~/.zshrc
-
-```
-plugins=(
-  git
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-)
-```
-使更改立刻生效
-source ~/.zshrc
+保证.zshrc文件没有被修改过，否则sed命令中的67可能无效，可以尝试使用sed命令的正则表达式功能解决
