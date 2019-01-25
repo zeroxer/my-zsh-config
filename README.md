@@ -16,3 +16,11 @@ source ~/.zshrc
 ### 注意
 
 保证.zshrc文件没有被修改过，否则sed命令中的67可能无效，可以尝试使用sed命令的正则表达式功能解决
+
+```
+plugins=(
+  git
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  )
+```
