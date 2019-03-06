@@ -2,12 +2,13 @@
 
 命令行一览
 
-### Ubuntu换源中科大
+### Ubuntu 换源中科大
 ```
 sudo sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 sudo sed -i 's/cn.archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
 ```
 
+### 配置终端
 > 使用root用户
 
 ```
