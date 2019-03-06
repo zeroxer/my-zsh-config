@@ -5,11 +5,12 @@
 > 使用root用户
 
 ```
-apt install zsh git wget -y
+sudo apt install zsh git wget vim -y
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sed -i "s/(git)/(\n\ \ git\n\ \ zsh-syntax-highlighting\n\ \ zsh-autosuggestions\n)/g" ~/.zshrc
+sed -i "s/robbyrussell/bira/g" ~/.zshrc
 source ~/.zshrc
 ```
 
