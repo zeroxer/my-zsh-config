@@ -1,5 +1,29 @@
-# my-zsh-config
+# my-shell-config
 
+## Fish Shell
+
+### 安装
+
+1.安装fish
+```shell
+sudo apt install curl git fish -y
+curl -L https://get.oh-my.fish | fish
+```
+
+2.安装agnoster主题
+```shell
+sudo apt install fonts-powerline
+omf install agnoster
+```
+
+3.重启终端
+```shell
+fish
+```
+
+4.配置生效
+
+## Zsh Shell
 命令行一览
 
 ### Ubuntu 换源中科大
