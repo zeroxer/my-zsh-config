@@ -13,6 +13,7 @@ curl -L https://get.oh-my.fish | fish
 2.安装agnoster主题
 ```shell
 sudo apt install fonts-powerline
+curl -L https://get.oh-my.fish | fish
 omf install agnoster
 ```
 
