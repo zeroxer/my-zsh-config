@@ -45,11 +45,17 @@ sed -i "s/robbyrussell/bira/g" ~/.zshrc
 source ~/.zshrc
 ```
 
-### 安装Docker
+### Install Docker
 
 ```shell
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
+```
+
+### Install pyenv
+
+```shell
+curl https://pyenv.run | bash
 ```
 
 ### 注意
