@@ -54,8 +54,8 @@ source ~/.zshrc
 ### Install Docker
 
 ```shell
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+apt install curl -y
+curl -fsSL https://get.docker.com | sh
 ```
 
 ### Install pyenv
