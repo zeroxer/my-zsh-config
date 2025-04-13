@@ -1,5 +1,10 @@
 # my-shell-config
 
+## 一键更新
+```shell
+sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && apt update -y && apt upgrade -y && apt install curl git fish wget vim -y && curl -fsSL https://get.docker.com | sh
+```
+
 ## Fish Shell
 
 ### 安装
